@@ -46,7 +46,7 @@ header h2 {
 
     padding-top: 20px;
 }
-  /******************************* Navigointi *********************************/
+  /******************************* Navigointi alkaa *********************************/
 
 
 header, nav {
@@ -83,30 +83,36 @@ ul {
  .active {
     background-color: #A97C73;
   }
+    /******************************* Navigointi loppuu *********************************/
 
- 
-  section {
-    width: 70%;
-    min-height: 500px;
-    margin: auto;
-    border-color: green;
+    /******************************* SECTION alkaa *********************************/
+
+    .big {
+      width: 70%;
+      min-height: 500px;
+      padding: 10px 5px 0px 5px;
+      margin: auto;
+      border-color: green;
+     
+     
+     
+    }
+
+    .row {
+      width: 100%;
+      margin: auto;
+      padding: 10px 5px 0px 5px;
+      min-height: 500px;
+      border-color: red;
+      
    
-   
-  }
+     
+     
+    }
 
-  
-figcaption {
+        /******************************* SECTION loppuu *********************************/
 
-  font-size: 13px;
-}
-
-
-
-  section img {
-    width: 250px;
-  }
-
-  .quote {
+    .quote {
 
     font-size: 20px;
     min-height: 50px;
@@ -156,15 +162,9 @@ a:hover.indexlink {
 a:active.indexlink {
   text-decoration: underline;
 }
-/*
-.hinnasto img{
 
-    width: 500px;
-}
 
-*/
-
-/****** Hinnastolistalle omat tyylit ****/
+/****** Hinnastolistan omat tyylit ****/
 .hinnasto ul {
   list-style-type: disc;
   margin: 0;
@@ -179,17 +179,9 @@ a:active.indexlink {
   margin-left: 1em;
 }
 
-
-
-
-
-
 /*** Hinnastolista loppuu ***/
 
-  .arabia img {
-
-    width: 400px;
-  }
+/*** Footer alkaa ***/
 
   footer {
     width: 100%;
@@ -204,24 +196,40 @@ a:active.indexlink {
 
     font-size: 13px;
   }
+/*** Footer loppuu ***/
 
- /**** footer {
-    text-align: center;
-    font-size: 12px;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    border-color: red;
-    border-style: solid;
+
+
+.arabia img {
+  width: 400px;
 }
-
-**/
-
 
 .responsive_image {
   width: 100%;
- max-width: 400px;
-height: auto;
+  max-width: 400px;
+  height: auto;
+}
+
+figcaption {
+
+  font-size: 13px;
+}
+
+section img {
+    width: 250px;
+  }
+
+/*
+.hinnasto img{
+
+    width: 500px;
+}
+
+*/
+
+.arabic {
+
+  font-size: 45px;
 }
 
 
@@ -239,7 +247,7 @@ height: auto;
      li {
         float: left;
       }
-        section {
+        .big {
     
             width: 95%;
            
@@ -252,8 +260,9 @@ height: auto;
 
         .row {
 
-          width: 95%;
+          width: 100%;
           margin: auto;
+          padding: 0;
 
         }
       
@@ -273,13 +282,15 @@ height: auto;
    /**************************tablet********************/
    @media only screen and (min-width: 650px) {
 
+
+
     li {
         float: left;
       }
 
       .row {
 
-        width: 70%;
+        width: 100%;
         margin: auto;
        
       }
@@ -314,7 +325,7 @@ height: auto;
 
       .row {
 
-        width: 70%;
+        width: 100%;
         margin: auto;
        
       }
