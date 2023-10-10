@@ -63,10 +63,11 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+  /******
   li {
     float: center;
   }
+  *****/
   
   li a {
     display: block;
@@ -81,7 +82,7 @@ ul {
   }
 
  .active {
-    background-color: #A97C73;
+    background-color: #724D46;
   }
     /******************************* Navigointi loppuu *********************************/
 
@@ -146,12 +147,12 @@ a:active.creativecommons {
 
 a:link.indexlink {
   text-decoration: underline;
-  color: #A97C73;
+  color: #724D46;
 }
 
 a:visited.indexlink {
   text-decoration: none;
-  color:  #A97C73;
+  color:  #724D46;
 }
 
 a:hover.indexlink {
@@ -195,6 +196,8 @@ a:active.indexlink {
   footer p{
 
     font-size: 13px;
+    border-color: #111;
+    border-style: solid;
   }
 /*** Footer loppuu ***/
 
@@ -247,7 +250,7 @@ section img {
      li {
         float: left;
       }
-        .big {
+    .big {
     
             width: 95%;
            
