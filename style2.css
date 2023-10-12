@@ -105,6 +105,7 @@ ul {
       padding: 10px 5px 0px 5px;
       min-height: 500px;
       border-color: red;
+  
       
    
      
@@ -115,7 +116,7 @@ ul {
 
     .quote {
 
-    font-size: 20px;
+    font-size: 17px;
     min-height: 50px;
     font-style: italic;
   }
@@ -197,7 +198,7 @@ a:active.indexlink {
 
     font-size: 13px;
     border-color: #111;
-    border-style: solid;
+  
   }
 /*** Footer loppuu ***/
 
@@ -207,9 +208,15 @@ a:active.indexlink {
   width: 400px;
 }
 
-.responsive_image {
+.responsive_image1 {
   width: 100%;
-  max-width: 400px;
+  max-width: 385px;
+  height: auto;
+}
+
+.responsive_image2 {
+  width: 100%;
+  max-width: 525px;
   height: auto;
 }
 
@@ -255,11 +262,12 @@ section img {
             width: 95%;
            
         }
+        /*
         header h1 {
-            padding: 200px 10px;
+            padding: 20px 10px;
             
         
-        }
+        }*/
 
         .row {
 
@@ -336,7 +344,7 @@ section img {
         float: left;
         width: 45%;
         padding-right: 5%;
-        }
+           }
       
       /* Clear floats after the columns */
       .row:after {
