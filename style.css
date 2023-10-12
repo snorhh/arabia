@@ -1,0 +1,173 @@
+/*
+div {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+
+/*alla oleva poistaa header-taustakuvan valkoiset reunat*/
+html, body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+header {
+    background-image: url("kuva2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px 10px;
+    margin: 0px;
+
+}
+/* toi yllä oleva margin 0px vetää headerin ylös asti ilman valkoista taustaa. miksi, who can tell*/
+
+section {
+
+    width: 90%;
+    margin: auto;
+    font-size: 19px;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.quote {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+section img {
+
+    width: 100%;
+    padding: 20px 0;
+}
+
+.row {
+
+    width: 90%;
+    margin: auto;
+    font-size: 19px;
+}
+
+
+footer {
+    background-color: antiquewhite;
+    margin-top: 40px;
+
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+/* margin 0px vetää footerin sivun alalaitaan ilman valkoista taustaa*/
+
+@media only screen and (min-width: 650px) {
+
+  li {
+    float: left;
+  }
+    section {
+
+        width: 75%;
+       
+    }
+    header h1 {
+        padding: 200px 10px;
+        
+    
+    }
+    /*tuo padding 200 eli 50px enemmän kasvatti kansikuvaa pystysuunnassa*/
+    .quote {
+        font-size: 40px;
+    
+    }
+    .row {
+
+        width: 75%;
+        margin: auto;
+
+    }
+
+
+  }
+
+  /** desktop*/ 
+
+  @media only screen and (min-width: 1025px) {
+    section {
+
+        width: 55%;
+       
+    }
+    header h1 {
+        font-size: 70px;
+            
+    
+    }
+
+    /*tuo padding 200 eli 50px enemmän kasvatti kansikuvaa pystysuunnassa*/
+
+    .row {
+
+        width: 95%;
+        margin: auto;
+      }
+    .column {
+        float: left;
+        width: 45%;
+        padding-right: 5%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+     
+  }
