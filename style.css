@@ -149,6 +149,10 @@ a:active.indexlink {
 
 /*** Tekstien muotoilu***/
 
+.h2_index {
+  font-size: 100%;
+}
+
 h1 {
   margin-left: 3px;
 }
